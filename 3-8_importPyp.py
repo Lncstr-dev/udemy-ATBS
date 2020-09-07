@@ -1,6 +1,7 @@
 # adam lancaster
 # this program displays and manipulates the contents of the clipboard.
-# for best results, copy something to the clipboard before running program.
+# for best results, copy something to the clipboard before running program,
+# otherwise output will be inconsistent. 
 
 import pyperclip as pc
 
