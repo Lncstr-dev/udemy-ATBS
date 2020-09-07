@@ -24,4 +24,3 @@ def greeting(name, age):
         str((age + 1)), 'years old.')
 
 main()
-
