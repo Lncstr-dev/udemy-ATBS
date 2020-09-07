@@ -7,11 +7,16 @@ import pyperclip as pc
 
 def main():
 
+    pc.copy('this is the first message.')
+    # this function copies the msg txt to clipboard.
+
     clipboard = pc.paste()
+    # this function copies clipboard txt to variable.
 
     print(clipboard)
+    # prints contents of clipboard.
 
-    pc.copy('this is a test message.')
+    pc.copy('this is the second message.')
 
     clipboard = pc.paste()
 
