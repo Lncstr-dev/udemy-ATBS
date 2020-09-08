@@ -5,7 +5,7 @@ import pyperclip as pc
 
 def main():
 # main function loads the clipboard with a message, then prints the contents
-# of the clipboard. it then repeats this process with the second message. 
+# of the clipboard. it then repeats this process with a second message. 
 
     clipboardPnP('this is the first message.')
     clipboardPnP('this is the second message.')
