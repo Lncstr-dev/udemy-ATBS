@@ -11,7 +11,7 @@ def main():
     clipboardPnP('this is the second message.')
 
 def clipboardPnP(statement):
-# clipboard paste and printer. I couldnt think of something better to call
+# clipboard paste and print. I couldnt think of something better to call
 # it, and clipboardPasteAndPrint is way too long. function loads statement 
 # into clipboard then prints the contents of the clipboard.
 
