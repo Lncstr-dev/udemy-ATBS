@@ -17,9 +17,8 @@ def clipboardPnP(statement):
 
     pc.copy(statement)
     # this function copies the msg txt to clipboard.
-    clipboard = pc.paste()
-    # this function copies clipboard txt to variable.
-    print(clipboard)
-    # prints contents of clipboard.
+    
+    print(pc.paste())
+    # gets content of clipboard, then prints it to console. 
 
 main()
